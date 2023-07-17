@@ -5,11 +5,7 @@ body {
 .App {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(
-    180deg,
-    rgb(4, 194, 23) 55%,
-    rgb(20, 135, 16) 100%
-  );
+  background: linear-gradient(180deg, #3b96eb 30%, #bde0fe 100%);
 }
 
 #imageContainer {
@@ -28,7 +24,7 @@ body {
 .header {
   color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 1rem;
 }
 
@@ -77,6 +73,7 @@ body {
 #scoreBoard {
   color: white;
   font-size: 2rem;
+  text-align: center;
 }
 
 @font-face {

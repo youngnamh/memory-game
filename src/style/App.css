@@ -7,8 +7,8 @@ body {
   height: 100vh;
   background: linear-gradient(
     180deg,
-    rgba(9, 9, 121, 1) 55%,
-    rgba(0, 158, 255, 1) 100%
+    rgb(4, 194, 23) 55%,
+    rgb(20, 135, 16) 100%
   );
 }
 
@@ -72,4 +72,10 @@ body {
 #scoreBoard {
   color: white;
   font-size: 2rem;
+}
+
+@font-face {
+  font-family: "pokemon-font";
+  src: url("../assets/fonts/pokemon-solid.ttf") format("truetype");
+  /* Additional font properties */
 }

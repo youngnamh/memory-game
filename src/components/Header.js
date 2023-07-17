@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import pokeball from "../assets/images/pokeball.png";
+import logo from "../assets/images/header-logo.png";
 
 const Header = () => {
   return (

@@ -16,6 +16,7 @@ body {
   display: flex;
   gap: 1rem;
   justify-content: center;
+  color: white;
 }
 
 .column {
@@ -29,6 +30,20 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
+}
+
+#pokeball {
+  width: 2.5rem;
+  animation: rotateAnimation 2s infinite linear;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 #title {
@@ -45,7 +60,16 @@ body {
   box-shadow: 0rem 0rem 1rem rgb(255, 255, 255);
 }
 
+.frame:active {
+  background-color: white;
+}
+
 .characterImage {
   width: 100%;
   height: 100%;
+}
+
+#scoreBoard {
+  color: white;
+  font-size: 2rem;
 }

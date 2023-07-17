@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 
-const Pic = ({ url }) => {
+const Pic = ({ url, onClick }) => {
+  const print = (url) => console.log("hello :" + url);
+
   return (
     <div
       className="frame"
@@ -9,6 +11,7 @@ const Pic = ({ url }) => {
         width: "20vh",
         height: "20vh",
       }}
+      onClick={onClick}
     >
       <img src={url} alt="character" className="characterImage" />
     </div>
